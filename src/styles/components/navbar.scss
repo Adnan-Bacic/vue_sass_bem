@@ -1,0 +1,21 @@
+.nav{
+    @include container;
+    list-style-type: none;
+    margin-top: 50px;
+    color: white;
+
+    &__item{
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+
+        &--home{
+            color: white;
+            margin-left: 50px;
+        }
+        &--navitem{
+            color: white;
+            margin-right: 50px;
+        }
+    }
+}

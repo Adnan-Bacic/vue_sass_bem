@@ -1,0 +1,19 @@
+//import alle files
+
+//general
+@import 'components/variables.scss';
+@import 'components/mixins.scss';
+@import 'components/normalize.scss';
+
+//content
+@import 'components/navbar.scss';
+
+@import 'components/hero.scss';
+@import 'components/work.scss';
+
+@import 'components/contact.scss';
+
+@import 'components/footer.scss';
+
+//responsive
+@import 'components/mobile.scss';

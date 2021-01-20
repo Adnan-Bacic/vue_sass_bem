@@ -1,0 +1,30 @@
+.hero{
+    @include container;
+
+    &__title{
+        color: white;
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+        font-size: 60px;
+    }
+    &__subtitle{
+        color: white;
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    &__btn__container{
+        margin: auto;
+    }
+
+    &__btn--hero{
+        background-color: $btn-hero;
+        margin-bottom: 50px;
+
+        &:hover{
+            background-color: $btn-hero-hover;
+        }
+    }
+}

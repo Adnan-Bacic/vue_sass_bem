@@ -1,0 +1,18 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	overflow-y: scroll;
+}
+body{
+	font-family: 'Roboto', 'verdana', 'helvetica', 'arial', sans-serif;
+	background-color: $bg-main;
+}
+a{
+    text-decoration: none;
+}
+
+.button{
+    @include button;
+}
